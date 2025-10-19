@@ -32,7 +32,7 @@ Coco is designed for children and complies with the Children's Online Privacy Pr
 - **Payment Information**: Processed securely by Apple App Store and never stored on our servers
 - **Receipt Data**: Purchase verification tokens (encrypted and used only for validation)
 
-**⚠️ IMPORTANT**: We do NOT have access to your payment card information, billing address, or other financial details. All payment processing is handled securely by Apple's App Store.
+**Important**: We do NOT have access to your payment card information, billing address, or other financial details. All payment processing is handled securely by Apple's App Store.
 
 ## What We Don't Collect
 
@@ -49,10 +49,10 @@ Coco is designed for children and complies with the Children's Online Privacy Pr
 We use collected information to:
 - Provide personalized learning experiences
 - Improve app functionality and educational content
-- Manage and verify subscription status
-- Process and validate in-app purchases
-- Determine access levels based on subscription tier
-- Send subscription renewal reminders (if notifications enabled)
+- **Manage and verify subscription status**
+- **Process and validate in-app purchases**
+- **Determine access levels based on subscription tier**
+- **Send subscription renewal reminders (if notifications enabled)**
 - Ensure app security and prevent abuse
 - Comply with legal obligations
 
@@ -78,17 +78,10 @@ When you purchase a subscription, we store:
 - Receipt data is encrypted during transmission
 - We use industry-standard security protocols
 
-### Subscription Auto-Renewal
-- All subscriptions automatically renew monthly unless cancelled
-- You will be charged 24 hours before the current period ends
-- Payment is charged to your iTunes Account at purchase confirmation
-- Manage subscriptions in **Settings > [your name] > Subscriptions** on your iOS device
-
-### Cancellation
-- Cancel anytime through device subscription settings
-- Cancellation takes effect at the end of the current billing period
-- No refunds for partial months
-- Access continues until the end of the paid period
+### Subscription Status Updates
+- Your subscription status is automatically updated when purchases are made
+- Status changes are reflected in your account within minutes
+- We periodically verify subscription validity with Apple
 
 ## Data Sharing
 
@@ -100,7 +93,7 @@ We do not sell, trade, or share your child's information with third parties exce
 
 ### Third-Party Payment Processing
 - All subscription payments are processed by Apple App Store
-- Apple's Privacy Policy applies: https://www.apple.com/legal/privacy/
+- Apple's Privacy Policy applies to payment transactions: https://www.apple.com/legal/privacy/
 - We receive only limited purchase verification data from Apple
 - We do not have access to your payment credentials
 
@@ -126,6 +119,25 @@ Each service has its own privacy policy:
 - Apple Privacy Policy: https://www.apple.com/legal/privacy/
 - Google/Firebase Privacy Policy: https://policies.google.com/privacy
 
+## Subscription Terms
+
+### Auto-Renewal
+- All subscriptions automatically renew monthly unless cancelled
+- You will be charged 24 hours before the current period ends
+- Payment is charged to your iTunes Account at purchase confirmation
+- Subscriptions can be managed or cancelled in device settings
+
+### Cancellation
+- Cancel anytime through Settings > [your name] > Subscriptions on your iOS device
+- Cancellation takes effect at the end of the current billing period
+- No refunds for partial months
+- Access continues until the end of the paid period
+
+### Price Changes
+- Subscription prices may change with notice
+- Price changes apply to new subscriptions and renewals after notice period
+- Current subscribers will be notified before price changes take effect
+
 ## Parental Rights
 
 Parents have the right to:
@@ -136,7 +148,7 @@ Parents have the right to:
 - Cancel subscriptions at any time
 - Contact us with privacy concerns
 
-To exercise these rights, please contact us at **cocoapp2025.dev@gmail.com**.
+To exercise these rights, please contact us at cocoapp2025.dev@gmail.com.
 
 ## Data Retention
 
@@ -163,7 +175,7 @@ Depending on your location, you may have additional rights:
 - **Restriction**: Request restricted processing
 - **Withdraw Consent**: Withdraw consent for data processing
 
-To exercise these rights, contact us at **cocoapp2025.dev@gmail.com**.
+To exercise these rights, contact us at cocoapp2025.dev@gmail.com.
 
 ## California Residents (CCPA)
 
@@ -213,21 +225,12 @@ This Privacy Policy complies with:
 ## Subscription Privacy Summary
 
 **Quick Reference for Parents:**
-- ✅ We only store your subscription level and status
-- ✅ Apple handles all payment processing
-- ✅ We never see your payment card information
-- ✅ You can cancel anytime through device settings
-- ✅ Subscription history is kept for legal/tax requirements
-- ✅ Contact us to delete other account data
-
-## Subscription Plans
-
-- **Free Plan**: $0/month - 150 questions per month
-- **Basic Plan**: $4.99/month - 800 questions per month
-- **Premium Plan**: $9.99/month - 1500 questions per month
-- **Pro Plan**: $19.99/month - 3500 questions per month
-
-All subscriptions automatically renew monthly unless cancelled at least 24 hours before the end of the current period.
+- We only store your subscription level and status
+- Apple handles all payment processing
+- We never see your payment card information
+- You can cancel anytime through device settings
+- Subscription history is kept for legal/tax requirements
+- Contact us to delete other account data
 
 ## Transparency Commitment
 
