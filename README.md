@@ -1,248 +1,167 @@
-# Privacy Policy for Coco
+# Privacy Policy for Scholar Hub
 
-**Last Updated: October 20, 2025**
+**Last Updated: October 28, 2026**
 
 ## Overview
 
-Coco is a kids' learning app that uses artificial intelligence to provide educational content and activities. We are committed to protecting the privacy and safety of children who use our app. This Privacy Policy explains how we collect, use, and protect information when you use Coco.
+Scholar Hub (previously named Coco) is a voice-based AI tutor for adult learners. You ask a question out loud and the app answers with a spoken, AI-generated explanation. This Privacy Policy explains what we collect, why, who we share it with, and the choices you have.
 
-## Children's Privacy
+By creating an account or using the app you agree to this policy.
 
-Coco is designed for children and complies with the Children's Online Privacy Protection Act (COPPA) and other applicable children's privacy laws. We do not knowingly collect personal information from children under 13 without verifiable parental consent.
+## Who Can Use Scholar Hub
+
+Scholar Hub is intended for people aged **18 and over**. It is not directed at children, and we do not knowingly collect personal information from anyone under 18. If you believe a person under 18 has given us information, contact us at the address below and we will delete it.
 
 ## Information We Collect
 
+### Account Information
+- **Name and email address**, which you give us when you create an account
+- **A password**, handled by Firebase Authentication. We cannot see it
+- **A unique account ID** and a generated avatar seed
+
 ### Voice Data
-- **What we collect**: Audio recordings when your child uses voice input features
-- **How we use it**: To process speech and provide AI-powered learning responses
-- **Storage**: Voice data is processed in real-time and is not permanently stored on our servers
-- **Deletion**: Audio data is automatically deleted after processing
+- **What we collect**: audio of your question when you use the microphone
+- **How we use it**: to turn your speech into text so we can answer. The audio is sent to Google's speech-to-text service
+- **Storage**: we do not keep your recordings. Audio is processed in real time and is not stored on our servers
+- **Deletion**: the recording is deleted from your device after processing
 
-### Usage Information
-- Basic app usage statistics (time spent, features used)
-- Progress tracking for learning activities
-- Technical information (device type, operating system version)
+### Your Questions and AI Answers
+- The text of your question is sent to our server and to Google's AI service (Gemini) to generate an answer, and the answer is read to you using Google's text-to-speech service
+- We do not store the text of your questions or the answers on our servers. We keep only a short topic label for each answer (for example "verb tenses"), described below
 
-### Subscription and Payment Information
-- **Subscription Plan**: Type of subscription selected (Free, Basic, Premium, or Pro)
-- **Purchase History**: Transaction dates and subscription status
-- **Product IDs**: Internal identifiers for subscription products
-- **Subscription Status**: Active, expired, or cancelled status
-- **Renewal Dates**: Next billing date for active subscriptions
-- **Payment Information**: Processed securely by Apple App Store and never stored on our servers
-- **Receipt Data**: Purchase verification tokens (encrypted and used only for validation)
+### Learning Progress
+The Progress tab shows your practice streak, the days you were active, how many questions you have asked in each subject, badges you have earned, and the short topic labels mentioned above. This is stored with your account and is not shown to other users.
 
-**Important**: We do NOT have access to your payment card information, billing address, or other financial details. All payment processing is handled securely by Apple's App Store.
+### Practice Times
+The hour of day (in your local time) at which you ask each question, kept as a simple count per hour. We use it only to choose when to send your optional daily reminder.
+
+### Subscription and Purchase Information
+- Your plan (Free, Basic, Premium or Pro), its start date, status and renewal dates
+- Product identifiers and purchase verification tokens from Google Play or the Apple App Store, used only to check your purchase
+- Your monthly question allowance ("connects") and how many you have left
+
+Payments are processed by Google Play or the Apple App Store. **We never see or store your payment card number, billing address or other financial details.**
+
+### Advertising Information
+Free-plan users see ads served by **Google AdMob**. To show and measure ads, Google may collect your device's advertising ID, approximate location (derived from your IP address), the app interactions needed to deliver ads, and diagnostic information. See "Advertising" below.
+
+### Technical Information
+Device type and operating system version, used to keep the app working.
 
 ## What We Don't Collect
 
-- Personal identifying information (names, addresses, phone numbers)
-- Email addresses (except for parent/guardian account creation)
-- Photos or videos
-- Location data
-- Contact lists
+- Your precise location
+- Photos, videos or files from your device
+- Your contacts
+- Your payment card details
 - Social media information
-- Credit card or payment card information
 
 ## How We Use Information
 
-We use collected information to:
-- Provide personalized learning experiences
-- Improve app functionality and educational content
-- **Manage and verify subscription status**
-- **Process and validate in-app purchases**
-- **Determine access levels based on subscription tier**
-- **Send subscription renewal reminders (if notifications enabled)**
-- Ensure app security and prevent abuse
-- Comply with legal obligations
+We use information to:
+- Provide the tutor: understand your questions and answer them
+- Run your account, subscription and monthly allowance
+- Show your learning progress and send the daily reminder you choose
+- Show ads to free-plan users and give rewards for watching them
+- Keep the app secure, prevent abuse and fix problems
+- Meet legal obligations
 
-## Subscription Data Processing
+## AI-Generated Content
 
-### What We Store
-When you purchase a subscription, we store:
-- Subscription plan level (Basic, Premium, or Pro)
-- Start date of subscription
-- Subscription product ID
-- Verification status
-- Monthly usage limits based on your plan
+Answers are generated by artificial intelligence, so they can occasionally be inaccurate, incomplete or out of date. Please check anything important (for example medical, legal, financial or exam-critical information) with a reliable source. Do not include sensitive personal information in your questions.
 
-### What We Don't Store
-- Payment card numbers
-- Billing addresses
-- Apple ID credentials
-- Payment method details
+Your questions are processed by Google's AI services under Google's terms and privacy policy.
 
-### How We Verify Subscriptions
-- Purchase receipts are validated through Apple's servers
-- Validation occurs in real-time during purchase
-- Receipt data is encrypted during transmission
-- We use industry-standard security protocols
+## Advertising
 
-### Subscription Status Updates
-- Your subscription status is automatically updated when purchases are made
-- Status changes are reflected in your account within minutes
-- We periodically verify subscription validity with Apple
+- **Free plan**: Scholar Hub shows banner ads and occasional full-screen ads. Paid plans do not show these ads.
+- **Rewarded ads**: when you run out of questions you may choose to watch a short ad to earn more. When you do, your account ID is sent to Google AdMob so that Google can confirm you watched the ad, and our server then adds the reward.
+- **Your choices**: you can limit ad personalisation or reset your advertising ID in your device settings (Android: Settings > Privacy > Ads; iOS: Settings > Privacy & Security > Tracking). Where the law requires it, such as in the European Economic Area, the United Kingdom and Switzerland, the app asks for your consent before showing personalised ads.
+- We do not sell your personal information. Ad data is collected by Google under Google's privacy policy: https://policies.google.com/privacy
 
-## Data Sharing
+## Daily Practice Reminders
 
-We do not sell, trade, or share your child's information with third parties except:
-- **Apple App Store**: For payment processing and subscription management
-- **Service providers**: Who help us operate the app under strict confidentiality agreements (e.g., Firebase for secure data storage)
-- **Legal requirements**: When required by law or to protect safety
-- **With your explicit consent**: In all other cases
+If you allow notifications, the app schedules one reminder per day on your device, at roughly the time you usually practise. These are local notifications created on your device. They are not sent from our servers and contain no advertising. The text may include your first name and your current streak. You can turn reminders off at any time in the Profile tab or in your device's notification settings.
 
-### Third-Party Payment Processing
-- All subscription payments are processed by Apple App Store
-- Apple's Privacy Policy applies to payment transactions: https://www.apple.com/legal/privacy/
-- We receive only limited purchase verification data from Apple
-- We do not have access to your payment credentials
+## Subscriptions
 
-## Data Security
+### Plans
+- **Free Plan**: $0/month, 150 questions per month, with ads
+- **Basic Plan**: $4.99/month, 800 questions per month
+- **Premium Plan**: $9.99/month, 1500 questions per month
+- **Pro Plan**: $19.99/month, 3500 questions per month
 
-We implement appropriate security measures to protect information, including:
-- Encryption of data in transit and at rest (AES-256)
-- Secure cloud storage through Firebase with industry-standard security
-- Regular security assessments and audits
-- Limited access to data on a need-to-know basis
-- Secure deletion of unnecessary data
-- Encrypted purchase receipt validation
-- Secure API calls for subscription verification
+Prices may vary by region and are shown in your local currency before you buy.
+
+### Auto-Renewal and Cancellation
+- Subscriptions renew automatically each month unless you cancel at least 24 hours before the current period ends
+- Payment is charged to your Google Play or Apple App Store account at confirmation of purchase
+- Manage or cancel at any time in your store's subscription settings (Google Play: Payments & subscriptions > Subscriptions; iOS: Settings > [your name] > Subscriptions)
+- Cancellation takes effect at the end of the current billing period, and there are no refunds for partial periods except where the law or the store's policy requires them
 
 ## Third-Party Services
 
-Coco uses the following third-party services:
-- **Apple App Store**: For app distribution, in-app purchases, and subscription management
-- **Firebase (Google Cloud)**: For secure data storage and user authentication
-- **AI Processing Services**: For educational content generation (data is processed securely and not stored)
+Scholar Hub relies on these providers to operate:
+- **Google Play and the Apple App Store**: app distribution, purchases and subscription management
+- **Firebase (Google Cloud)**: sign-in, secure data storage and the servers that run the app
+- **Google Cloud Speech-to-Text and Text-to-Speech**: turning your voice into text and our answers into speech
+- **Google Gemini**: generating answers
+- **Google AdMob**: ads and reward verification
 
-Each service has its own privacy policy:
-- Apple Privacy Policy: https://www.apple.com/legal/privacy/
-- Google/Firebase Privacy Policy: https://policies.google.com/privacy
+Their privacy policies apply to the data they handle:
+- Google and Firebase: https://policies.google.com/privacy
+- Apple: https://www.apple.com/legal/privacy/
 
-## Subscription Terms
+We do not sell your personal information to anyone.
 
-### Auto-Renewal
-- All subscriptions automatically renew monthly unless cancelled
-- You will be charged 24 hours before the current period ends
-- Payment is charged to your iTunes Account at purchase confirmation
-- Subscriptions can be managed or cancelled in device settings
+## Data Security
 
-### Cancellation
-- Cancel anytime through Settings > [your name] > Subscriptions on your iOS device
-- Cancellation takes effect at the end of the current billing period
-- No refunds for partial months
-- Access continues until the end of the paid period
-
-### Price Changes
-- Subscription prices may change with notice
-- Price changes apply to new subscriptions and renewals after notice period
-- Current subscribers will be notified before price changes take effect
-
-## Parental Rights
-
-Parents have the right to:
-- Review any personal information collected about their child
-- Review subscription and purchase history
-- Request deletion of their child's information (note: subscription history may be retained for legal/accounting purposes)
-- Refuse further collection of their child's information
-- Cancel subscriptions at any time
-- Contact us with privacy concerns
-
-To exercise these rights, please contact us at cocoapp2025.dev@gmail.com.
+- Data is encrypted in transit (HTTPS/TLS), and Firebase encrypts stored data at rest
+- Account access is protected by Firebase Authentication
+- Access to stored data is limited to what is needed to run the service
+- No method of transmission or storage is completely secure, so we cannot guarantee absolute security
 
 ## Data Retention
 
-- **Voice data**: Deleted immediately after processing
-- **Usage data**: Retained for 12 months or until account deletion
-- **Subscription data**: Retained as required by law and payment processors (typically 7 years for tax/accounting purposes)
-- **Purchase receipts**: Retained for verification and dispute resolution
-- **Account data**: Deleted within 30 days of account deletion request (except data we're required to retain by law)
+- **Voice recordings**: not kept; deleted after processing
+- **Questions and answers**: not stored by us
+- **Account details, learning progress, practice times and your question allowance**: kept until you delete your account
+- **Subscription and purchase records**: kept as required by law and payment processors (typically up to 7 years for tax and accounting)
+- **Ad reward records** (the daily reward counter and verification records): deleted when you delete your account
 
-### When You Delete Your Account
-- Personal usage data is deleted within 30 days
-- Subscription history is retained for legal compliance (tax records, fraud prevention)
-- Active subscriptions must be cancelled separately through App Store
-- Anonymous analytics data may be retained
+## Deleting Your Account and Data
 
-## Your Rights (GDPR, CCPA, and Other Privacy Laws)
+You can delete your account at any time:
+1. Open the **Profile** tab and tap your profile card at the top
+2. Tap **Delete Account** and confirm with your password
 
-Depending on your location, you may have additional rights:
-- **Access**: Request a copy of your data
-- **Correction**: Request correction of inaccurate data
-- **Deletion**: Request deletion of your data (subject to legal retention requirements)
-- **Portability**: Receive your data in a portable format
-- **Objection**: Object to certain data processing
-- **Restriction**: Request restricted processing
-- **Withdraw Consent**: Withdraw consent for data processing
+This deletes your profile, learning progress and practice times, and your sign-in. Records we must keep by law (such as purchase records) may be retained. Active subscriptions are not cancelled automatically, so cancel them in Google Play or the App Store as well.
 
-To exercise these rights, contact us at cocoapp2025.dev@gmail.com.
+If you cannot use the app, email **cocoapp2025.dev@gmail.com** with the subject "Delete my account" from the address registered to your account. We will delete your data within 30 days.
 
-## California Residents (CCPA)
+## Your Rights
 
-California residents have specific rights under the California Consumer Privacy Act:
-- Right to know what personal information is collected
-- Right to know if personal information is sold or disclosed
-- Right to opt-out of the sale of personal information (we do not sell personal information)
-- Right to deletion of personal information
-- Right to non-discrimination for exercising CCPA rights
+Depending on where you live (for example under the GDPR in the EEA and UK, or the CCPA in California), you may have the right to:
+- **Access** the personal information we hold about you
+- **Correct** inaccurate information
+- **Delete** your information
+- **Receive** your data in a portable format
+- **Object to or restrict** certain processing
+- **Withdraw consent** where processing is based on consent
+
+California residents also have the right to know what is collected and whether it is sold or shared, and to non-discrimination for using these rights. We do not sell personal information.
+
+To use these rights, contact **cocoapp2025.dev@gmail.com**. We respond within 30 days.
 
 ## International Users
 
-If you are located outside the United States:
-- Your information may be transferred to and processed in the United States
-- We comply with applicable data protection laws
-- We use standard contractual clauses for international data transfers
-- Contact us for information about data transfer safeguards
+Our service providers process data in the United States and other countries. If you are outside the United States, your information may be transferred to and processed there. We rely on the safeguards our providers offer, such as standard contractual clauses, for these transfers.
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. We will notify users of any material changes by:
-- Posting the updated policy in the app
-- Updating the "Last Updated" date
-- Providing notice through the app or other means
-- For material changes affecting children's privacy, we will seek parental consent where required
+We may update this policy from time to time. We will update the "Last Updated" date and tell you in the app about material changes. Continuing to use the app after a change means you accept the updated policy.
 
-Continued use of the app after changes constitutes acceptance of the updated policy.
-
-## Contact Information
-
-If you have questions about this Privacy Policy or our privacy practices, please contact us:
+## Contact Us
 
 - **Email**: cocoapp2025.dev@gmail.com
-- **Subject Line**: "Privacy Policy Question" or "Subscription Privacy Question"
-
-We will respond to privacy inquiries within 30 days.
-
-## Compliance
-
-This Privacy Policy complies with:
-- Children's Online Privacy Protection Act (COPPA)
-- General Data Protection Regulation (GDPR)
-- California Consumer Privacy Act (CCPA)
-- Apple App Store Guidelines
-- Google Play Developer Policy
-
-## Subscription Privacy Summary
-
-**Quick Reference for Parents:**
-- We only store your subscription level and status
-- Apple handles all payment processing
-- We never see your payment card information
-- You can cancel anytime through device settings
-- Subscription history is kept for legal/tax requirements
-- Contact us to delete other account data
-
-## Transparency Commitment
-
-We believe in transparency about how we handle your data:
-- We collect only what's necessary to provide the service
-- We never sell data to third parties
-- We use industry-standard security measures
-- We comply with all applicable privacy laws
-- We prioritize children's privacy and safety
-
----
-
-*This privacy policy is effective as of October 20, 2025 and applies to all users of the Coco app.*
-
-**For questions specifically about subscriptions, billing, or payments, please contact: cocoapp2025.dev@gmail.com with "Subscription Question" in the subject line.**
+- **Subject line**: "Privacy Policy Question" or "Delete my account"
